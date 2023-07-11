@@ -1,1 +1,0 @@
-touch section-1/section-1.md section-2/section-2.md section-5/section-5.md section-6/section-6.md section-7/section-7.md section-8/section-8.md section-9/section-9.md
