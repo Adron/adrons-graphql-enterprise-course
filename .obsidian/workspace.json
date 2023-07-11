@@ -315,9 +315,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6abaf9bba5934844",
+  "active": "521ba87a8ae6e1be",
   "lastOpenFiles": [
     "section-2/01-sdl-object-types-and-fields.md",
+    "section-2/02-query-mutation-types.md",
     "section-2/00-schema-graphql-definition-langauge-sdl.md",
     "section-1/02-schema-mutations-and-subscriptions.md",
     "section-1/01-graphql-and-rest.md",
@@ -329,7 +330,6 @@
     "section-3/00-graphql-queries.md",
     "section-2/04-enum-types.md",
     "section-2/03-sdl-input-types.md",
-    "section-2/02-query-mutation-types.md",
     "section-1.md",
     "section-4/section-4.md",
     "section-9/section-9.md",
