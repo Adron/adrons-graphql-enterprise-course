@@ -12,7 +12,7 @@ In GraphQL, scalar types are the fundamental building blocks that represent the 
 2. Using Scalar Types: Scalar types are used in field definitions to specify the type of the data that the field returns. For example, a field "name" can be defined with the scalar type "String" to represent a person's name.
     
     Example:
-```
+``` json
 type Person {
   name: String
   age: Int
@@ -27,7 +27,7 @@ type Person {
     To define a custom scalar type, you can use the `scalar` keyword in the SDL. You need to specify the name of the scalar type and provide custom parsing and serialization functions.
     
     Example:
-```
+``` json
 scalar Date
 
 type Event {

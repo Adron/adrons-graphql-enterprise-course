@@ -4,191 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "057e78979ce6dfa8",
+        "id": "90a338029cda6d50",
         "type": "tabs",
         "children": [
           {
-            "id": "624b81e7264e2090",
+            "id": "2d7ad2a852e81c5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af1fd81d82804595",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee7f7d5901872c94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6822562d6978a7e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e8a2a8ae7d3e8f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fcb6c9bdc45c7b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08945bf7068df1d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8e205ab25eae4b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b9c4dc9fca529df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ba4860253659cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-1/01-graphql-and-rest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "095df92f5390ec54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-2/00-schema-graphql-definition-langauge-sdl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "962b485c3f76c635",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-2/01-sdl-object-types-and-fields.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3ef3d5ff9757581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-2/02-query-mutation-types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6144c23de3aa429",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-2/03-sdl-input-types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "521ba87a8ae6e1be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-2/02-query-mutation-types.md",
+                "file": "section-3/04-related-data-with-connections.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "section-2/02-query-mutation-types.md",
+                "file": "section-3/04-related-data-with-connections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "section-2/02-query-mutation-types.md",
+                "file": "section-3/04-related-data-with-connections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "section-2/02-query-mutation-types.md"
+                "file": "section-3/04-related-data-with-connections.md"
               }
             }
           }
@@ -315,29 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "521ba87a8ae6e1be",
+  "active": "6abaf9bba5934844",
   "lastOpenFiles": [
-    "section-2/01-sdl-object-types-and-fields.md",
-    "section-2/02-query-mutation-types.md",
-    "section-2/00-schema-graphql-definition-langauge-sdl.md",
-    "section-1/02-schema-mutations-and-subscriptions.md",
-    "section-1/01-graphql-and-rest.md",
-    "section-1/00-intro-to-graphql.md",
-    "section-3/04-related-data-with-connections.md",
     "section-3/03-aliases-fragments.md",
     "section-3/02-querying-arguments-and-variables.md",
     "section-3/01-querying-fields-nested-fields.md",
     "section-3/00-graphql-queries.md",
-    "section-2/04-enum-types.md",
-    "section-2/03-sdl-input-types.md",
+    "README.md",
     "section-1.md",
+    "section-3.md",
+    "section-4.md",
+    "section-5.md",
+    "section-6.md",
+    "section-7.md",
+    "section-8.md",
+    "section-1/01-graphql-and-rest.md",
+    "section-2/00-schema-graphql-definition-langauge-sdl.md",
+    "section-2/01-sdl-object-types-and-fields.md",
+    "section-2/02-query-mutation-types.md",
+    "section-2/03-sdl-input-types.md",
+    "section-2/04-enum-types.md",
+    "section-1/02-schema-mutations-and-subscriptions.md",
+    "section-1/00-intro-to-graphql.md",
+    "section-3/04-related-data-with-connections.md",
     "section-4/section-4.md",
     "section-9/section-9.md",
     "section-8/section-8.md",
     "section-7/section-7.md",
     "section-6/section-6.md",
-    "section-5/section-5.md",
-    "section-9.md",
     "section-9",
     "section-8",
     "section-7",
@@ -346,11 +182,6 @@
     "section-4",
     "section-3",
     "section-2",
-    "section-1",
-    "section-8.md",
-    "section-7.md",
-    "section-6.md",
-    "section-5.md",
-    "section-4.md"
+    "section-1"
   ]
 }

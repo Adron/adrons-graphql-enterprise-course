@@ -10,9 +10,15 @@ When constructing GraphQL queries, clients can query specific fields and their n
     
     Example:
     
-    graphqlCopy code
-    
-    `query {   getUser {     name     age     email   } }`
+``` json
+query {
+  getUser {
+    name
+    age
+    email
+  }
+}
+```
     
     In this example, the query requests the `name`, `age`, and `email` fields of the `getUser` object type.
     
@@ -23,9 +29,18 @@ When constructing GraphQL queries, clients can query specific fields and their n
     
     Example:
     
-    cssCopy code
-    
-    `query {   getUser {     name     age     posts {       title       content     }   } }`
+``` json
+query {
+  getUser {
+    name
+    age
+    posts {
+      title
+      content
+    }
+  }
+}
+```
     
     In this example, the query retrieves the `name` and `age` fields of the `getUser` object type, as well as the `title` and `content` fields of the nested `posts` object type.
     
@@ -36,9 +51,16 @@ When constructing GraphQL queries, clients can query specific fields and their n
     
     Example:
     
-    graphqlCopy code
-    
-    `query {   getUser {     name     posts {       title     }   } }`
+``` json
+query {
+  getUser {
+    name
+    posts {
+      title
+    }
+  }
+}
+```
     
     In this example, the query only requests the `name` field of the `getUser` object type and the `title` field of the nested `posts` object type.
     
@@ -49,9 +71,16 @@ When constructing GraphQL queries, clients can query specific fields and their n
     
     Example:
     
-    javascriptCopy code
-    
-    `query {   getUser(id: "123") {     name     posts(status: "published") {       title     }   } }`
+``` json
+query {
+  getUser(id: "123") {
+    name
+    posts(status: "published") {
+      title
+    }
+  }
+}
+```
     
     In this example, the query includes an argument `id` for the `getUser` field to retrieve data for a specific user. Additionally, the `posts` field has an argument `status` to filter the retrieved posts based on their status.
     

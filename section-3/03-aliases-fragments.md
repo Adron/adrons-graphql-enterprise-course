@@ -10,9 +10,18 @@ In GraphQL, aliases and fragments are powerful features that enhance query flexi
     
     Example:
     
-    cssCopy code
-    
-    `query {   user1: getUser(id: "123") {     fullName: name     userEmail: email   }   user2: getUser(id: "456") {     fullName: name     userEmail: email   } }`
+``` json
+query {
+  user1: getUser(id: "123") {
+    fullName: name
+    userEmail: email
+  }
+  user2: getUser(id: "456") {
+    fullName: name
+    userEmail: email
+  }
+}
+```
     
     In this example, the aliases `user1` and `user2` are used to differentiate between two `getUser` queries, and the aliases `fullName` and `userEmail` are used to provide alternative names in the response.
     
@@ -24,9 +33,25 @@ In GraphQL, aliases and fragments are powerful features that enhance query flexi
     
     Example:
     
-    graphqlCopy code
-    
-    `fragment UserFields on User {   name   email }  query {   getUser(id: "123") {     ...UserFields   } }  query {   getAdmin(id: "456") {     ...UserFields     role   } }`
+``` json
+fragment UserFields on User {
+  name
+  email
+}
+
+query {
+  getUser(id: "123") {
+    ...UserFields
+  }
+}
+
+query {
+  getAdmin(id: "456") {
+    ...UserFields
+    role
+  }
+}
+```
     
     In this example, the `UserFields` fragment is defined with the selected fields of a `User` type. It is then included in two different queries (`getUser` and `getAdmin`), reducing duplication and promoting code reuse.
     
@@ -38,9 +63,20 @@ In GraphQL, aliases and fragments are powerful features that enhance query flexi
     
     Example:
     
-    graphqlCopy code
-    
-    `query {   search(text: "GraphQL") {     ... on BlogPost {       title       content     }     ... on NewsArticle {       headline       publishedAt     }   } }`
+``` json
+query {
+  search(text: "GraphQL") {
+    ... on BlogPost {
+      title
+      content
+    }
+    ... on NewsArticle {
+      headline
+      publishedAt
+    }
+  }
+}
+```
     
     In this example, the `search` field may return both `BlogPost` and `NewsArticle` types. Inline fragments are used to include specific fields based on the type, ensuring that only relevant fields are queried.
     

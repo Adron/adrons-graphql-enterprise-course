@@ -11,7 +11,7 @@ In GraphQL, object types and fields are key components used to define and struct
     
     Example:
     
-```
+``` json
 type User {
   id: ID
   name: String
@@ -32,7 +32,7 @@ type User {
     
     Example:
     
-```
+``` json
 type User {
   id: ID
   name: String

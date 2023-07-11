@@ -3,21 +3,23 @@ GraphQL Schema Definition Language (SDL)
 In GraphQL, input types are used to define complex input structures that can be passed as arguments to mutation fields. They allow clients to provide structured data to modify or create resources in a GraphQL API. Input types are defined using the `input` keyword in the GraphQL SDL.
 
 1. Input Types:
-    
     - Input types are specially designated types used for passing structured data as arguments to mutation fields.
     - They are similar to object types but are specifically intended for input purposes and cannot have fields that are themselves input types.
     - Input types can contain scalar types, other input types, or lists of those types.
 2. Defining Input Types:
-    
     - Input types are defined using the `input` keyword in the GraphQL SDL.
     - Fields within the input type represent the input arguments that clients can provide.
     - Fields within an input type can be of scalar types, other input types, or lists of those types.
     
     Example:
-    
-    yamlCopy code
-    
-    `input CreateUserInput {   name: String!   email: String!   age: Int }`
+
+``` yaml
+input CreateUserInput {
+  name: String!
+  email: String!
+  age: Int
+}
+```
     
     In this example, the `CreateUserInput` input type is defined with fields such as "name", "email", and "age". The "name" and "email" fields are required (denoted by the exclamation mark "!"), while the "age" field is optional.
     
@@ -28,9 +30,11 @@ In GraphQL, input types are used to define complex input structures that can be 
     
     Example:
     
-    cssCopy code
-    
-    `type Mutation {   createUser(input: CreateUserInput!): User }`
+``` css
+type Mutation {
+  createUser(input: CreateUserInput!): User
+}
+```
     
     In this example, the `createUser` mutation field accepts an argument called "input" of type `CreateUserInput`. The exclamation mark "!" denotes that the "input" argument is required. The field returns a `User` object.
     
@@ -41,9 +45,13 @@ In GraphQL, input types are used to define complex input structures that can be 
     
     Example:
     
-    lessCopy code
-    
-    `input PostInput {   title: String!   content: String!   author: CreateUserInput! }`
+``` less
+input PostInput {
+  title: String!
+  content: String!
+  author: CreateUserInput!
+}
+```
     
     In this example, the `PostInput` input type is defined with fields such as "title", "content", and "author". The "author" field is an input type itself (`CreateUserInput`), allowing clients to provide the necessary data to create a user as part of creating a post.
     

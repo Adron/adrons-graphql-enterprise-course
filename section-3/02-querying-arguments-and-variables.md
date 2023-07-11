@@ -9,9 +9,14 @@ When constructing GraphQL queries, clients can use arguments to customize the da
     
     Example:
     
-    javascriptCopy code
-    
-    `query {   getUsersByRole(role: "ADMIN") {     name     email   } }`
+``` json
+query {
+  getUsersByRole(role: "ADMIN") {
+    name
+    email
+  }
+}
+```
     
     In this example, the `getUsersByRole` field takes an argument `role` with the value `"ADMIN"`, retrieving only users with the specified role.
     
@@ -23,9 +28,14 @@ When constructing GraphQL queries, clients can use arguments to customize the da
     
     Example:
     
-    javascriptCopy code
-    
-    `query($role: String!) {   getUsersByRole(role: $role) {     name     email   } }`
+``` json
+query($role: String!) {
+  getUsersByRole(role: $role) {
+    name
+    email
+  }
+}
+```
     
     In this example, the query defines a variable `$role` of type `String!`. The variable is then used as an argument for the `getUsersByRole` field.
     
@@ -36,9 +46,11 @@ When constructing GraphQL queries, clients can use arguments to customize the da
     
     Example (query variables):
     
-    jsonCopy code
-    
-    `{   "role": "ADMIN" }`
+``` json
+{
+  "role": "ADMIN"
+}
+```
     
     In this example, the query variable `$role` is assigned the value `"ADMIN"`.
     
@@ -55,6 +67,5 @@ When constructing GraphQL queries, clients can use arguments to customize the da
         - `where`: Used for complex filtering conditions.
     
     These arguments are not part of the GraphQL syntax itself, but rather conventions commonly used in GraphQL APIs.
-    
 
 GraphQL's support for arguments and variables allows clients to customize queries and provide dynamic values. By utilizing arguments and variables effectively, clients can create more flexible and reusable queries to retrieve the desired data from a GraphQL API.

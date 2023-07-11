@@ -14,9 +14,13 @@ In GraphQL, enum types are used to define a specific set of possible values for 
     
     Example:
     
-    arduinoCopy code
-    
-    `enum UserRole {   ADMIN   USER   MODERATOR }`
+``` json
+enum UserRole {
+  ADMIN
+  USER
+  MODERATOR
+}
+```
     
     In this example, the `UserRole` enum type is defined with values such as "ADMIN", "USER", and "MODERATOR".
     
@@ -28,9 +32,16 @@ In GraphQL, enum types are used to define a specific set of possible values for 
     
     Example:
     
-    graphqlCopy code
-    
-    `type User {   name: String   role: UserRole }  type Query {   getUsersByRole(role: UserRole): [User] }`
+``` json
+type User {
+  name: String
+  role: UserRole
+}
+
+type Query {
+  getUsersByRole(role: UserRole): [User]
+}
+```
     
     In this example, the `User` object type has a field called "role" of type `UserRole`, representing the user's role. The `getUsersByRole` query field accepts an argument "role" of type `UserRole`, allowing clients to filter users based on their role.
     
@@ -42,9 +53,17 @@ In GraphQL, enum types are used to define a specific set of possible values for 
     
     Example:
     
-    arduinoCopy code
-    
-    `enum UserRole {   ADMIN   USER   MODERATOR    ADMIN_DESCRIPTION: "Administrator role with full access"   USER_DESCRIPTION: "Regular user role"   MODERATOR_DESCRIPTION: "Moderator role with limited privileges" }`
+``` json
+enum UserRole {
+  ADMIN
+  USER
+  MODERATOR
+
+  ADMIN_DESCRIPTION: "Administrator role with full access"
+  USER_DESCRIPTION: "Regular user role"
+  MODERATOR_DESCRIPTION: "Moderator role with limited privileges"
+}
+```
     
     In this example, descriptions are added to each enum value, providing additional information about the role.
     

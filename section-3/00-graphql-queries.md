@@ -14,9 +14,11 @@ In GraphQL, queries are used to retrieve data from a GraphQL API. They allow cli
     
     Example:
     
-    graphqlCopy code
-    
-    `query {   ... }`
+``` json
+query {
+  ...
+}
+```
     
 3. Query Arguments:
     
@@ -26,9 +28,15 @@ In GraphQL, queries are used to retrieve data from a GraphQL API. They allow cli
     
     Example:
     
-    javascriptCopy code
-    
-    `query {   getUser(id: "123") {     name     age   } }`
+``` json
+query {
+  getUser(id: "123") {
+    name
+    age
+  }
+}
+
+```
     
     In this example, the `getUser` field accepts an `id` argument to retrieve the user's name and age.
     
@@ -40,9 +48,18 @@ In GraphQL, queries are used to retrieve data from a GraphQL API. They allow cli
     
     Example:
     
-    cssCopy code
-    
-    `query {   getUser(id: "123") {     name     age     posts {       title       content     }   } }`
+``` json
+query {
+  getUser(id: "123") {
+    name
+    age
+    posts {
+      title
+      content
+    }
+  }
+}
+```
     
     In this example, the query retrieves the name and age of a user with the specified `id` and also retrieves the user's posts, including the title and content of each post.
     
@@ -53,9 +70,14 @@ In GraphQL, queries are used to retrieve data from a GraphQL API. They allow cli
     
     Example:
     
-    cssCopy code
-    
-    `query {   u: getUser(id: "123") {     n: name     a: age   } }`
+``` json
+query {
+  u: getUser(id: "123") {
+    n: name
+    a: age
+  }
+}
+```
     
     In this example, aliases (`u` and `n`) are used to rename the `getUser` field and the `name` field, respectively.
     

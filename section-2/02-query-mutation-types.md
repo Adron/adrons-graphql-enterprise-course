@@ -11,9 +11,12 @@ In GraphQL, query and mutation types are root types used to define the entry poi
     
     Example:
     
-    bashCopy code
-    
-    `type Query {   getUser(id: ID!): User   getAllPosts: [Post] }`
+``` json
+type Query {
+  getUser(id: ID!): User
+  getAllPosts: [Post]
+}
+```
     
     In this example, the query type is defined with fields such as "getUser" and "getAllPosts". The "getUser" field accepts an ID argument and returns a "User" object, while the "getAllPosts" field returns a list of "Post" objects.
     
@@ -26,9 +29,12 @@ In GraphQL, query and mutation types are root types used to define the entry poi
     
     Example:
     
-    lessCopy code
-    
-    `type Mutation {   createUser(name: String!, email: String!): User   updatePost(id: ID!, input: PostInput): Post }`
+``` json
+type Mutation {
+  createUser(name: String!, email: String!): User
+  updatePost(id: ID!, input: PostInput): Post
+}
+```
     
     In this example, the mutation type is defined with fields such as "createUser" and "updatePost". The "createUser" field accepts name and email arguments and returns a "User" object. The "updatePost" field accepts an ID argument and a complex input object of type "PostInput" and returns a "Post" object.
     
