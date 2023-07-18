@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "90a338029cda6d50",
+        "id": "bc3f55bb38a5c621",
         "type": "tabs",
         "children": [
           {
-            "id": "2d7ad2a852e81c5e",
+            "id": "e55cbfcc323bc73d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "section-4/04-mutation-optimistic-UI-updates.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "section-4/04-mutation-optimistic-UI-updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "section-4/04-mutation-optimistic-UI-updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "section-4/04-mutation-optimistic-UI-updates.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,34 +138,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d7ad2a852e81c5e",
+  "active": "e55cbfcc323bc73d",
   "lastOpenFiles": [
-    "section-4/03-mutation-batch-mutations.md",
-    "section-4/04-mutation-optimistic-UI-updates.md",
-    "section-4/02-mutation-response-types-error-handling.md",
-    "section-4/01-graphql-mutations-input-types.md",
-    "section-4/00-graphql-mutations.md",
-    "section-3/04-related-data-with-connections.md",
-    "section-3/03-aliases-fragments.md",
-    "section-3/02-querying-arguments-and-variables.md",
-    "section-3/01-querying-fields-nested-fields.md",
-    "section-3/00-graphql-queries.md",
+    "section-9/04-introspection-schema-introspection.md",
+    "additional-material/graphql-tooling-libraries.md",
+    "additional-material/graphql-services.md",
+    "additional-material/Visual Studio IDE GraphQl Extension.md",
+    "additional-material/Jetbrains IntelliJ IDE.md",
+    "additional-material",
+    "section-9/03-error-handling.md",
+    "section-9/02-custom-directives-spring-boot-java.md",
+    "section-9/01-custom-directives.md",
+    "section-9/00-advanced-topics.md",
+    "section-8/03-pagination-batching-functions-spring-java.md",
+    "section-8/02-optimize-resolver-functions.md",
     "README.md",
-    "section-1.md",
-    "section-3.md",
-    "section-4.md",
-    "section-5.md",
-    "section-6.md",
-    "section-7.md",
     "section-8.md",
-    "section-1/01-graphql-and-rest.md",
-    "section-2/00-schema-graphql-definition-langauge-sdl.md",
-    "section-2/01-sdl-object-types-and-fields.md",
-    "section-2/02-query-mutation-types.md",
-    "section-2/03-sdl-input-types.md",
-    "section-2/04-enum-types.md",
-    "section-1/02-schema-mutations-and-subscriptions.md",
-    "section-1/00-intro-to-graphql.md",
+    "section-6.md",
+    "section-4.md",
+    "section-3.md",
+    "section-2.md",
+    "section-1.md",
+    "section-8/01-dataloader.md",
+    "section-8/00-performance-and-caching.md",
+    "section-7/00-authentication-authorization.md",
+    "section-7/section-7.md",
+    "section-6/01-filtering-and-sorting-results.md",
+    "section-6/00-pagination-and-filtering.md",
+    "section-5/05-handling-subscription-events.md",
     "section-9",
     "section-8",
     "section-7",
