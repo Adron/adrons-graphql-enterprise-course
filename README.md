@@ -1,5 +1,7 @@
 # adrons-graphql-enterprise-course
 
+This [site](https://adron.github.io/adrons-graphql-enterprise-course/), and the [repository](https://github.com/Adron/adrons-graphql-enterprise-course/).
+
 This is GraphQL course curriculum, course work, and related assets focused around Spring Boot Java GraphQL APIs.
 
 1. Introduction to GraphQL
