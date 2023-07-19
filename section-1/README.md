@@ -3,8 +3,8 @@
 ## 1.1 What is GraphQL and why is it useful?
 
 - [Definition of GraphQL as a query language for APIs](00-intro-to-graphql.md)
-- Advantages of using GraphQL over REST
-- Benefits of declarative data fetching
+- [Advantages of using GraphQL over REST](01-graphql-and-rest.md)
+- [Benefits of declarative data fetching](02-schema-mutations-and-subscriptions.md)
 
 ## 1.2 Comparison with REST APIs
 
