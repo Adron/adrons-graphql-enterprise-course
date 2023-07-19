@@ -4,7 +4,7 @@ This [site](https://adron.github.io/adrons-graphql-enterprise-course/), and the 
 
 This is GraphQL course curriculum, course work, and related assets focused around Spring Boot Java GraphQL APIs.
 
-1. Introduction to GraphQL
+1. [Introduction to GraphQL](section-1)
     - What is GraphQL and why is it useful?
     - Comparison with REST APIs
     - Building blocks: Schema, Queries, Mutations, and Subscriptions
