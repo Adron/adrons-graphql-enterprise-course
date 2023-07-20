@@ -1,3 +1,5 @@
+# GraphQL Constituent Parts
+
 The basic building blocks of GraphQL are the schema, queries, mutations, and subscriptions. These components define the structure and functionality of a GraphQL API.
 
 1. Schema:
