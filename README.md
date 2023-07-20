@@ -5,9 +5,9 @@ This [site](https://adron.github.io/adrons-graphql-enterprise-course/), and the 
 This is GraphQL course curriculum, course work, and related assets focused around Spring Boot Java GraphQL APIs.
 
 1. [Introduction to GraphQL](section-1)
-    - What is GraphQL and why is it useful?
-    - Comparison with REST APIs
-    - Building blocks: Schema, Queries, Mutations, and Subscriptions
+    - [What is GraphQL and why is it useful?](00-intro-to-graphql.md)
+    - [Comparison with REST APIs](01-graphql-and-rest.md)
+    - [Building blocks: Schema, Queries, Mutations, and Subscriptions](02-schema-mutations-and-subscriptions.md)
 2. GraphQL Schema Definition Language (SDL)
     - Scalar types (String, Int, Float, Boolean, etc.)
     - Object types and fields
